@@ -1,0 +1,13 @@
+meta:
+  include:
+    - test1.yaml
+    - db.yaml
+db-postgres:
+  driver: 'postgres'
+  host: 127.0.0.1
+  port: 3456
+  user: 'test_user'
+  password: 'qwerty1'
+test:
+  key1: value1
+  key2: value2
